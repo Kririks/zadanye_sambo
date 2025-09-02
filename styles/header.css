@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    color: #F8F8F8;
+}
+
+
+
+.header {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    background-color: black;
+    height: 133px;
+    width: 1320px;
+    flex-direction: column;
+    display: flex;
+}
+
+.logo_and_login_wrap {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #808080;
+}
+
+.logo_container {
+    display: flex;
+    flex-direction: row;
+    width: 517px;
+    height: 60px;
+    align-items: center;
+    margin: 7px 0px 8px 44px;
+    justify-content: space-between;
+}
+ 
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    height: 27px;
+    width: 441px;
+    margin-left: 15px;
+}
+
+.login {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #DA281B;
+    padding: 12px 32px 12px 32px;
+    border: none;
+    border-radius: 8px;
+    min-height: 56px;
+    max-height: 56px;
+    width: 220px;
+    color: #fff;
+    margin: 9px 44px 10px 37.5%;
+    white-space: nowrap;
+}
+
+.login:hover {
+    background-color: rgb(0, 0 , 0, 0);
+    border: 3px solid #DA281B;
+    padding: 9px 29px 9px 29px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 1175px;
+    height: 21px;
+    margin: 18px 72px 18px 73px;
+}
+
+.menu_option {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px 0 0;
+    white-space: nowrap;
+}
+
+.drop_arrow {
+    margin: 0 0 0 5px;
+}
+
