@@ -3,30 +3,24 @@ html {
 }
 
 body{
-    width: 100%;
+    width: 1920px;
     margin: 0 auto;
-    color: #F8F8F8;
-    overflow-x: hidden;
+    color: #FFFFFF;
+    background-color: #F8F8F8;
 }
 
 .header {
     font-family: "Inter", sans-serif;
-    color: #fff;
-    background-color: rgb(0,0,0,0);
+    background-color: #fff;
     height: 133px;
     width: 1920px;
     flex-direction: column;
 }
 
-.background_slider {
-    background-image: url("../images/fighters.png");
-    background-repeat: no-repeat;
-    width: 1920px;
-    height: 1280px;
-}
 .logo_and_login_wrap {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border-bottom: 1px solid #808080;
 }
 
@@ -36,7 +30,7 @@ body{
     width: 517px;
     height: 60px;
     align-items: center;
-    margin: 7px 0px 8px 44px;
+    margin: 7px 0px 8px 48px;
     justify-content: space-between;
 }
  
@@ -47,6 +41,7 @@ body{
     height: 27px;
     width: 441px;
     margin-left: 15px;
+    color: black;
 }
 
 .login {
@@ -61,12 +56,13 @@ body{
     max-height: 56px;
     width: 220px;
     color: #fff;
-    margin: 9px 44px 10px 55%;
+    margin: 9px 48px 10px ;
     white-space: nowrap;
 }
 
 .login:hover {
     background-color: rgb(0, 0 , 0, 0);
+    color: black;
     border: 3px solid #DA281B;
     padding: 9px 29px 9px 29px;
     cursor: pointer;
@@ -77,31 +73,53 @@ body{
     flex-direction: row;
     width: 80%;
     height: 21px;
-    margin: 18px 12% 18px 12%;
+    margin: 18px 12% 18px 8%;
 }
 
 .menu_option {
     display: flex;
+    color: #204E93;
     flex-direction: row;
     margin: 0 5% 0 0;
     white-space: nowrap;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.menu_option:hover {
+    text-shadow: 0 0 1px #204E93;
 }
 
 .dropdown_arrow {
     margin: 0 0 0 5px;
+    transition: all 0.4s;
 }
 
 .dropdown_arrow:hover {
     transform: rotate(180deg);
-    transition: 0.5s;
+}
+
+.slider_box {
+    background-image: url("../images/fighters.png");
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1280px;
+    position: relative;
+}
+
+.slider_background_shadow {
+    background: linear-gradient(to top, black, rgb(0, 0, 0, 0));
+    width: 1920px;
+    height: 1280px;
 }
 
 .slider_text {
     font-weight: 600;
     font-size: 40px;
     font-family: "Inter", sans-serif;
-    margin: 46% 20% 0 3%;
+    position: absolute;
+    left: 48px;
+    bottom: 50px;
 }
 
 @media (min-width: 400px) and (max-width: 1320px) {
@@ -113,8 +131,7 @@ body{
 }
     .header {
         font-family: "Inter", sans-serif;
-        color: #fff;
-        background-color: black;
+        background-color: #fff;
         height: 133px;
         width: 1320px;
         flex-direction: column;
@@ -144,3 +161,4 @@ body{
 }
 
 }
+

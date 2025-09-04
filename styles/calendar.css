@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 1920px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #F8F8F8;
+}
+
+.calendar {
+    width: 100%;
+    height: 630px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    margin: 200px 0 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.competitions_calendar {
+    display: flex;
+    flex-direction: column;
+    width: 604px;
+    height: 530px;
+}
+
+.competitions_title {
+
+}
+
+.calendar_list {
+    
+}   
+
+.calendar_slider {
+    display: flex;
+    flex-direction: row;
+}
+
+.calendar_slider_left_arrow {
+
+}
+
+.calendar_slider_list_name {
+
+}
+
+.calendar_slider_right_arrow {
+
+}
+
+.calendar_event {
+    display: flex;
+    flex-direction: row;
+}
+
+.calendar_event_flag {
+
+}
+
+.calendar_event_name {
+
+}
+
+.calendar_event_dates {
+
+}
+
+.photogallery {
+
+}
+
+.upper_galery_block {
+
+}
+
+.upper_galery_block_title {
+
+}
+
+.all_photos_button {
+
+}
+
+.photo_block {
+
+}

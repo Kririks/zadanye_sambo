@@ -4,57 +4,198 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/news.css">
+    <link rel="stylesheet" href="styles/calendar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Sambo.ru</title>
 </head>
 <body>
-    <div class="background_slider">
-        <header class="header">
-            <div class="logo_and_login_wrap">
-                <div class="logo_container">
-                    <img src="images/logo.svg" alt="">
-                    <h1 class="title">Всероссийская федерация самбо</h1>
-                </div>
-                <button class="login">Личный кабинет</button>
+    <header class="header">
+        <div class="logo_and_login_wrap">
+            <div class="logo_container">
+                <img src="images/logo.svg" alt="">
+                <h1 class="title">Всероссийская федерация самбо</h1>
             </div>
-            <div class="menu">
-                <div class="menu_option">
-                    О самбо
-                    <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            <button class="login">Личный кабинет</button>
+        </div>
+        <div class="menu">
+            <div class="menu_option">
+                О самбо
+                <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            </div>
+            <div class="menu_option">
+                Федерация
+                <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            </div>
+            <div class="menu_option">
+                Документы
+                <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            </div>
+            <div class="menu_option">
+                Соревнования
+                <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            </div>
+            <div class="menu_option">
+                Сборная России
+                <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            </div>
+            <div class="menu_option">
+                Антидопинг
+                <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            </div>
+            <div class="menu_option">
+                Судейство
+                <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            </div>
+            <div class="menu_option">
+                Пресс-Центр
+                <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="slider_box">
+        <div class="slider_background_shadow">
+            <div class="slider_text">
+                <h1>Официальный ресурс <br> Всероссийской федерации самбо</h1>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="upper_info">
+            <div class="block_title">
+                <h2>Новости</h2>
+            </div>
+            <div class="all_news_button">
+                Смотреть все <img src="images/all_news.svg" alt="">
+            </div>
+        </div>
+        <div class="news_slider">
+                <img src="images/move_news_to_the_left.svg" alt="" style="cursor: pointer;">
+            <div class="news_container">
+                <div class="news_preveiw">
+                    <div class="news_image">
+                        <img src="images/news1.png" alt="">
+                    </div>
+                    <div class="news_title">
+                        НАЦИОНАЛЬНАЯ СБОРНАЯ РОССИИ ПО САМБО 2025
+                    </div>
+                    <div class="news_date">
+                        15 августа
+                    </div>
                 </div>
-                <div class="menu_option">
-                    Федерация
-                    <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+                <div class="news_preveiw">
+                    <div class="news_image">
+                        <img src="images/news2.png" alt="">
+                    </div>
+                    <div class="news_title">
+                        ПРЯМОЙ ЭФИР: I этап Кубка пяти морей. Улан-Удэ
+                    </div>
+                    <div class="news_date">
+                        6 апреля
+                    </div>
                 </div>
-                <div class="menu_option">
-                    Документы
-                    <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+                <div class="news_preveiw">
+                        <img src="images/news3.png" alt="">
+                    <div class="news_title">
+                        ВИДЕО: АНОНС ПЕРВЕНСТВА И ЧЕМПИОНАТА ЕВРОПЫ 2025
+                    </div>
+                    <div class="news_date">
+                        6 апреля
+                    </div>
                 </div>
-                <div class="menu_option">
-                    Соревнования
-                    <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
-                </div>
-                <div class="menu_option">
-                    Сборная России
-                    <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
-                </div>
-                <div class="menu_option">
-                    Антидопинг
-                    <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
-                </div>
-                <div class="menu_option">
-                    Судейство
-                    <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
-                </div>
-                <div class="menu_option">
-                    Пресс-Центр
-                    <img class="dropdown_arrow" src="images/dropdown_arrow.svg" alt="">
+                <div class="news_preveiw">
+                    <div class="news_image">
+                        <img src="images/news4.png" alt="">
+                    </div>
+                    <div class="news_title">
+                        Первенство России U-16 | 1 день
+                    </div>
+                    <div class="news_date">
+                        17 марта
+                    </div>
                 </div>
             </div>
-        </header>
-        <div class="slider_text"><h1>Официальный ресурс <br> Всероссийской федерации самбо</h1></div>
+                <img src="images/move_news_to_the_right.svg" alt="" style="cursor: pointer;">
+        </div>
+    </div>
+    <div class="calendar">
+        <div class="competitions_calendar">
+            <div class="competitions_title">
+                Календарь соревнований
+            </div>
+            <div class="calendar_list">
+                <div class="calendar_slider">
+                    <div class="calendar_slider_left_arrow">
+
+                    </div>
+                    <div class="calendar_slider_list_name">
+                        Завершённые
+                    </div>
+                    <div class="calendar_slider_right_arrow">
+
+                    </div>
+                </div>
+                <div class="calendar_event">
+                    <div class="calendar_event_flag">
+                        <img src="images/flag.png" alt="">
+                    </div>
+                    <div class="calendar_event_name">
+                        Всероссийские соревнования по самбо (пляжное самбо) <br>Тамбов, Россия
+                    </div>
+                    <div class="calendar_event_dates">
+                        09.08.2025 — 11.08.2025
+                    </div>
+                </div>
+                <div class="calendar_event">
+                    <div class="calendar_event_flag">
+                        <img src="images/flag.png" alt="">
+                    </div>
+                    <div class="calendar_event_name">
+                        Первенство России по самбо среди юношей и девушек 12-14 лет <br>Кстово, Россия
+                    </div>
+                    <div class="calendar_event_dates">
+                        31.05.2025 — 05.06.2025
+                    </div>
+                </div>
+                <div class="calendar_event">
+                    <div class="calendar_event_flag">
+                        <img src="images/flag.png" alt="">
+                    </div>
+                    <div class="calendar_event_name">
+                        Международный турнир по самбо "Победа" среди команд городов-героев, городов воинской славы и федеральных округов России <br>Санкт-Петербург, Россия
+                    </div>
+                    <div class="calendar_event_dates">
+                        02.05.2025 — 05.05.2025
+                    </div>
+                </div>
+                <div class="calendar_event">
+                    <div class="calendar_event_flag">
+                        <img src="images/flag.png" alt="">
+                    </div>
+                    <div class="calendar_event_name">
+                        Международный турнир по самбо "Победа" среди команд городов-героев, городов воинской славы и федеральных округов России <br>Санкт-Петербург, Россия
+                    </div>
+                    <div class="calendar_event_dates">
+                        02.05.2025 — 05.05.2025
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photogallery">
+            <div class="upper_galery_block">
+                <div class="upper_galery_block_title">
+                    Фотогалерея
+                </div>
+                <div class="all_photos_button">
+                    Смотреть все
+                </div>
+            </div>
+            <div class="photo_block">
+
+            </div>
+        </div>
     </div>
 </body>
 </html> 
