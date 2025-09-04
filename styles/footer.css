@@ -7,6 +7,7 @@ body {
     margin: 0 auto;
     color: #FFFFFF;
     background-color: #F8F8F8;
+    
 }
 
 .footer {
@@ -16,4 +17,126 @@ body {
     padding: 0 48px 0 48px;
     font-family: "Inter", sans-serif;
     background-color: #E8E8E8;
+}
+
+.upper_footer_part {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 48px 20px 48px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+    color: #808080;
+    border-bottom: 1px solid #808080;
+}
+
+.adress_and_phones_logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress_and_phones_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress_and_phones {
+    display: flex;
+    flex-direction: row;
+}
+
+.adress {
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.phones {
+    padding-left: 8px;
+}
+
+.fax_and_mail {
+    display: flex;
+    flex-direction: row;
+}
+
+.fax_and_mail_logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.fax_and_mail_info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fax {
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.mail {
+    padding-left: 8px;
+}
+
+.contact_info_and_departaments_and_socials_logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_info_and_departaments_and_socials_info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact_info_and_departaments_and_socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_info {
+    padding-left: 8px;
+    padding-bottom: 12px;
+}
+
+.departaments {
+    padding-left: 8px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+
+.bottom_footer_part {
+    color: #808080;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 130%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.confidentiality_and_official_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.confidentiality {
+    margin: 10px 0 8px 0;
+}
+
+.official_name {
+    margin-bottom: 50px;
+}
+
+.citation {
+    margin-top: 10px;
+    text-indent: -200px;
 }
