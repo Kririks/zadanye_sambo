@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 1920px;
     margin: 0 auto;
     color: #FFFFFF;
@@ -19,6 +19,8 @@ body{
     display: flex;
     flex-direction: row;
     background-color: white;
+    padding: 0 48px 0 49px;
+    justify-content: space-between;
 }
 
 .competitions_calendar {
@@ -29,63 +31,109 @@ body{
 }
 
 .competitions_title {
-
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .calendar_list {
-    
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    padding: 0 10px 0 10px;
 }   
 
 .calendar_slider {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
 }
 
 .calendar_slider_left_arrow {
-
+    cursor: pointer;
 }
 
 .calendar_slider_list_name {
-
-}
+    font-size: 24px;
+    font-weight: 600;
+}   
 
 .calendar_slider_right_arrow {
-
+    cursor: pointer;
 }
 
 .calendar_event {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border-bottom: 1px solid #E8E8E8;
+    width: 584px;
+    min-height: 89px;
+    max-height: 89px;
+    padding-bottom: 82px;
 }
 
-.calendar_event_flag {
-
+.calendar_event_upper_part {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    margin-bottom: 18px;
+    margin-top: 8px;
 }
 
 .calendar_event_name {
-
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+    padding-left: 9px;
 }
 
 .calendar_event_dates {
-
+    font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+    line-height: 130%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .photogallery {
-
+    display: flex;
+    flex-direction: column;
+    width: 604px;
 }
 
 .upper_galery_block {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .upper_galery_block_title {
-
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .all_photos_button {
-
+    font-size: 18px;
+    font-weight: 500;
+    color: #204E93;
 }
 
 .photo_block {
+    background-image: url(/zadanie/images/photo_block_image.png);
+    width: 604px;
+    height: 464px;
+    display: flex;
+    align-items: end;
+}
 
+.text_on_photo_block {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    line-height: 130%;
+    padding: 60% 0 10px 10px;
+    border-radius: 12px;
+    background: linear-gradient(to top, black, rgb(0, 0, 0, 0));
 }
